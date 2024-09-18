@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
 import Rodape from '../../components/Rodape/Rodape';
+import DataFetcher from '../../components/DataFetcher';
+import Predictor from '../../components/Predictor';
 import { Line } from 'react-chartjs-2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -52,6 +54,8 @@ const PrevisaoDesempenho = () => {
     <>
       <Navbar />
       <Header />
+      {/* <DataFetcher/> */}
+      <Predictor/>
       <div className="container my-5">
         <h1 className="text-center mb-4">Previsão de Desempenho</h1>
 
